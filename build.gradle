@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+mainClassName = 'cs373.p4.Main'
+
+task wrapper(type: Wrapper) {
+  gradleVersion = '2.3'
+}
+
+repositories {
+  mavenCentral()
+}
+
+
