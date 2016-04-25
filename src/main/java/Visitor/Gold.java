@@ -4,9 +4,6 @@ package Visitor;
 public class Gold implements Elements {
 	private double weight;
 	
-	public Gold(){
-		
-	}
 	public void accept(Visitor visitor){
 		visitor.visit(this);
 	}
