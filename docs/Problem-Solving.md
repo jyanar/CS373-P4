@@ -1,7 +1,7 @@
-Visitor
+## Visitor
 Through the use of the visitor design pattern we were able to create a program where the core functionality is not directly connected to the classes being used. Instead of lumping both class variables and functions together, we have detatched the functionality in a way that is extensible and easy to refactor. Because the functionality is located within the ElementVisitor class, new functionality can be added more easily to a wider array of objects without risking breaking the system.
 
-Builder
+## Builder
 The builder pattern is a creation pattern that facilitates the process of constructing different complex objects, especially if we have to construct the same kind of complex objects multiple times. As stated in [sourcemaking,]() the intent of the builder pattern is to
 
 > Separate the construction of a complex object from its representation so that the same construction process can create different representations. 
