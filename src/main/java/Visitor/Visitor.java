@@ -1,5 +1,6 @@
 package Visitor;
 
+//Interface which provides the different kinds of elements
 public interface Visitor {
 	public void visit(Gold gold);
 	public void visit(Silver silver);

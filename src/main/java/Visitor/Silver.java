@@ -1,5 +1,6 @@
 package Visitor;
 
+//purely descriptive element class, functionality has been moved to ElementVisitor
 public class Silver implements Elements {
 	private double weight;
 	

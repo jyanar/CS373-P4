@@ -1,5 +1,6 @@
 package Visitor;
 
+//This class contains the functionality of each of the element classes
 public class ElementVisitor implements Visitor{
 	private double totalValue;
 	

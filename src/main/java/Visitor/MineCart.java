@@ -3,6 +3,7 @@ package Visitor;
 import java.util.ArrayList;
 import java.util.List;
 
+//This class contains a list of all the elements in use, and calculates a running value of their worth
 public class MineCart {
 	public List<Elements> elements = new ArrayList<Elements>();
 	
