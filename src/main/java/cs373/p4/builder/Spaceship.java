@@ -1,4 +1,4 @@
-package cs373.p4;
+package cs373.p4.builder;
 
 public class Spaceship implements ISpaceship {
 
@@ -63,8 +63,8 @@ public class Spaceship implements ISpaceship {
 
 	@Override public String toString() {
 		return id + ":\n\tCockpit: " + cockPit + "\n\tBody: " + body +
-			   "\n\tEngine: " + engine + "\n\tRight Wing: " + rightWing +
-			   "\n\tLeft Wing: " + leftWing + "\n\tOccupancy: " + occupancy;
+		       "\n\tEngine: " + engine + "\n\tRight Wing: " + rightWing +
+		       "\n\tLeft Wing: " + leftWing + "\n\tOccupancy: " + occupancy;
 	}
 }
 

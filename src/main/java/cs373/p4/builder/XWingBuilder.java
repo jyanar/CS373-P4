@@ -1,4 +1,4 @@
-package cs373.p4;
+package cs373.p4.builder;
 
 public class XWingBuilder implements IShipBuilder {
     
@@ -8,7 +8,7 @@ public class XWingBuilder implements IShipBuilder {
     public XWingBuilder() {}
     
     public void beginConstruction() {
-        this.spaceship.setId("X-Wing FA-" + counter);
+        this.spaceship.setId("X-Wing T-65-" + counter);
         this.spaceship.setOccupancy(1);
         this.counter++;
     }
@@ -18,7 +18,7 @@ public class XWingBuilder implements IShipBuilder {
     }
 
     public void constructEngine() {
-        this.spaceship.setEngine("Gwuay Lamo");
+        this.spaceship.setEngine("Incom 4L4 fusial thrust 300 KTU");
     }
     
     public void constructBody() {
@@ -26,11 +26,11 @@ public class XWingBuilder implements IShipBuilder {
     }
     
     public void constructLeftWing() {
-        this.spaceship.setLeftWing("S-Foil Inertials");
+        this.spaceship.setLeftWing("S-Foil-L Inertials");
     }
     
     public void constructRightWing() {
-        this.spaceship.setRightWing("S-Foil Inertials");
+        this.spaceship.setRightWing("S-Foil-R Inertials");
     }
 
     public Spaceship getSpaceShip() {

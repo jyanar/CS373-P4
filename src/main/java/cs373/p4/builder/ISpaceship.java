@@ -1,4 +1,4 @@
-package cs373.p4;
+package cs373.p4.builder;
 
 public interface ISpaceship {
     
